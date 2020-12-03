@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "AdventOfCode3/1.0.0": {
+        "dependencies": {
+          "NFluent": "2.7.0"
+        },
+        "runtime": {
+          "AdventOfCode3.dll": {}
+        }
+      },
+      "NFluent/2.7.0": {
+        "runtime": {
+          "lib/netstandard2.0/NFluent.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AdventOfCode3/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NFluent/2.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gmlrLkv2dC3FcnFWgvUb+hjd1790PKnGp8Xzar+QlADHAEmaW+GlLz5qDTstJTN20Noy59HtEsIahyjYQ6ocvg==",
+      "path": "nfluent/2.7.0",
+      "hashPath": "nfluent.2.7.0.nupkg.sha512"
+    }
+  }
+}
