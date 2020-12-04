@@ -9,7 +9,7 @@ namespace AdventOffCodeDay4
         {
             Console.WriteLine("Part1");
 
-            var file = @"D:\Perso\Advent of code\Day4\input.txt";
+            var file = @"..\..\..\..\input.txt";
             var verifyPassports = new VerifyPassports();
 
             var nbValidPassports = verifyPassports.CalcNbValidPassports(file, false);
