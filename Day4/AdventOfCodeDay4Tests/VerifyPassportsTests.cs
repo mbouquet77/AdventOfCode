@@ -16,7 +16,7 @@ namespace AdventOfCodeDay4Tests
         [Fact]
         public void VerifyNbValidPassports()
         {
-            var file = @"D:\Perso\Advent of code\Day4\exemple.txt";
+            var file = @"..\..\..\..\exemple.txt";
             var nbValidPassports = _verifyPassports.CalcNbValidPassports(file, false);
 
             Check.That(nbValidPassports).IsEqualTo(2);
@@ -25,7 +25,7 @@ namespace AdventOfCodeDay4Tests
         [Fact]
         public void VerifyValidPassportsWithValidation()
         {
-            var file = @"D:\Perso\Advent of code\Day4\validPassports.txt";
+            var file = @"..\..\..\..\validPassports.txt";
             var nbValidPassports = _verifyPassports.CalcNbValidPassports(file, true);
 
             Check.That(nbValidPassports).IsEqualTo(4);
@@ -34,7 +34,7 @@ namespace AdventOfCodeDay4Tests
         [Fact]
         public void VerifyInvalidPassportsWithValidation()
         {
-            var file = @"D:\Perso\Advent of code\Day4\invalidPassports.txt";
+            var file = @"..\..\..\..\invalidPassports.txt";
             var nbValidPassports = _verifyPassports.CalcNbValidPassports(file, true);
 
             Check.That(nbValidPassports).IsEqualTo(0);
