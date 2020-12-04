@@ -12,7 +12,7 @@ namespace AdventOfCode3Tests
         public NbTreesTests()
         {
             _prog = new CalcTreeNumber();
-            _file = @"D:\Perso\Advent of code\AdventOfCode3\exemple.txt";
+            _file = @"..\..\..\..\AdventOfCode3\exemple.txt";
         }
         [Fact]
         public void Part1CorrectNbTrees()
