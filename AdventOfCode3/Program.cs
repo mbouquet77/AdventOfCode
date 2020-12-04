@@ -6,7 +6,7 @@ namespace AdventOfCode3
     {
         static void Main(string[] args)
         {
-            var file = @"D:\Perso\Advent of code\AdventOfCode3\input.txt";
+            var file = @"..\..\..\input.txt";
 
             var calc = new CalcTreeNumber();
 
